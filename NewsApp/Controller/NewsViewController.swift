@@ -23,6 +23,17 @@ class NewsViewController: UIViewController {
         return view
     }()
     
+    private let emptyLabel: UILabel = {
+        let label = UILabel()
+        label.text = "No news yet"
+        label.textColor = .secondaryLabel
+        label.font = .systemFont(ofSize: 18, weight: .medium)
+        label.textAlignment = .center
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.isHidden = true // пока скрыт
+        return label
+    }()
+    
     private let chatbotAnimation: LottieAnimationView = {
         let animationView = LottieAnimationView(name: "Chatbot")
         animationView.translatesAutoresizingMaskIntoConstraints = false
@@ -58,6 +69,7 @@ class NewsViewController: UIViewController {
         title = "LasTen"
         print("✅ NewsViewController is running!")
         
+        view.addSubview(emptyLabel)
         view.addSubview(tableView)
         view.addSubview(topBannerView)
         topBannerView.addSubview(chatbotAnimation)
@@ -75,6 +87,11 @@ class NewsViewController: UIViewController {
         tableView.refreshControl = refreshControl
         refreshControl.addTarget(self, action: #selector(didPullToRefresh), for: .valueChanged)
         
+        
+        NSLayoutConstraint.activate([
+            emptyLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            emptyLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
         
         NSLayoutConstraint.activate([
             topBannerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
@@ -109,14 +126,21 @@ class NewsViewController: UIViewController {
         NetworkManager.shared.fetchNews { [weak self] result in
             DispatchQueue.main.async {
                 guard let self = self else { return }
-
+                
                 switch result {
                 case .success(let articles):
                     self.articles = articles
                     self.tableView.reloadData()
-
+                    
+                    self.emptyLabel.text = "No news yet"
+                    self.emptyLabel.isHidden = !(self.articles.isEmpty)
+                    
                 case .failure(let error):
                     print("❌ Load error:", error.localizedDescription)
+                    
+                    // Ошибка сети
+                    self.emptyLabel.text = "News load error. Please try again."
+                    self.emptyLabel.isHidden = false
                 }
 
                 self.refreshControl.endRefreshing()
