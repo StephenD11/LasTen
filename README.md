@@ -5,12 +5,12 @@ with data, logic, and UI clearly separated. AI was used only for guidance on str
 to fully understand every part of the implementation.
 
 Link to the video overview 🔗 
-1. Eng version
+1. Eng version 🇺🇸
 <a href="https://www.youtube.com/watch?v=LvnQVzLcOtQ">
-    <img src="https://img.youtube.com/vi/LvnQVzLcOtQ/hqdefault.jpg" width="400" height="200">
+    <img src="https://img.youtube.com/vi/LvnQVzLcOtQ/hqdefault.jpg" width="400">
 </a>
 
-2. Version with Ru Sub
+2. Version with Ru Sub 🇷🇺
 <a href="https://www.youtube.com/watch?v=2smhp1zD07I">
-    <img src="https://img.youtube.com/vi/LvnQVzLcOtQ/2smhp1zD07I" width="400" height="200">
+    <img src="https://img.youtube.com/vi/2smhp1zD07I/hqdefault.jpg" width="400">
 </a>
