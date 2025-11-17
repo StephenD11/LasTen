@@ -6,12 +6,12 @@ to fully understand every part of the implementation.
 
 Two version 🇺🇸/🇷🇺 links to the video overview 🔗 
 
-1. Eng version 🇺🇸
+1. Eng version 🇺🇸 [ tap on the image ]
 <a href="https://www.youtube.com/watch?v=LvnQVzLcOtQ">
     <img src="https://img.youtube.com/vi/LvnQVzLcOtQ/hqdefault.jpg" width="400">
 </a>
 
-2. Version with Ru Sub 🇷🇺
+2. Version with Ru Sub 🇷🇺 [ tap on the image ]
 <a href="https://www.youtube.com/watch?v=2smhp1zD07I">
     <img src="https://img.youtube.com/vi/2smhp1zD07I/hqdefault.jpg" width="400">
 </a>
