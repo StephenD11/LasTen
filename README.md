@@ -4,7 +4,8 @@ news loaded from an external API. Tapping an article opens an in-app browser whe
 with data, logic, and UI clearly separated. AI was used only for guidance on structure and API logic — all code was written manually 
 to fully understand every part of the implementation.
 
-Link to the video overview 🔗 
+Two version 🇺🇸/🇷🇺 links to the video overview 🔗 
+
 1. Eng version 🇺🇸
 <a href="https://www.youtube.com/watch?v=LvnQVzLcOtQ">
     <img src="https://img.youtube.com/vi/LvnQVzLcOtQ/hqdefault.jpg" width="400">
