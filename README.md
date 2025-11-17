@@ -1,6 +1,6 @@
 Link to the video overview 🔗 
-1. [![Watch the video Eng version](https://img.youtube.com/vi/abc123/maxresdefault.jpg)](https://www.youtube.com/watch?v=LvnQVzLcOtQ)
-2. [![Watch the video with Ru Subtitles](https://img.youtube.com/vi/abc123/maxresdefault.jpg)](https://www.youtube.com/watch?v=2smhp1zD07I)
+1. [![Watch the video Eng version](https://img.youtube.com/vi/LvnQVzLcOtQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=LvnQVzLcOtQ)
+2. [![Watch the video with Ru Subtitles](https://img.youtube.com/vi/2smhp1zD07I/maxresdefault.jpg)](https://www.youtube.com/watch?v=2smhp1zD07I)
 
 📋 Description:
 LasTen is a small news-feed app built to practice working with APIs. The main screen shows a short animation and a table of the latest U.S. 
