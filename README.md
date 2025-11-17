@@ -1,5 +1,9 @@
 Link to the video overview 🔗 
-1. [![Watch the video Eng version](https://img.youtube.com/vi/LvnQVzLcOtQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=LvnQVzLcOtQ)
+<a href="https://www.youtube.com/watch?v=LvnQVzLcOtQ">
+    <img src="https://img.youtube.com/vi/LvnQVzLcOtQ/hqdefault.jpg" width="600">
+</a>
+
+
 2. [![Watch the video with Ru Subtitles](https://img.youtube.com/vi/2smhp1zD07I/maxresdefault.jpg)](https://www.youtube.com/watch?v=2smhp1zD07I)
 
 📋 Description:
